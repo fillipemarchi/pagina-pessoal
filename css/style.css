@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/fundo.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container {
+    width: 60vw;
+    background-color: rgb(0,0,0, 0.85);
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue   ;
+}
+
+header{
+    position: sticky;
+    top:0;
+}
+
+header .cabecalho {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #202020;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+header .cabecalho a{
+    transition: 0.3s;
+}
+header .cabecalho a:hover{
+    color: rgb(202, 202, 202);
+}
+
+main .foto img{
+    width: 230px;
+    border-radius: 50%;    
+    transition: 0.6s;
+}
+
+main .foto img:hover{
+    box-shadow: 0 0 0.5em goldenrod;
+}
+
+main .foto {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+main .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+main .nome{
+    margin-top: 20px;
+}
+main .name{
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 0 0 1em white;
+}
+
+main .nome i{
+    font-size: 20px;
+    padding-right: 8px;
+    
+}
+
+main .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    height: 100%;
+    margin-top: 20px;
+    
+}
+
+main .links i{
+   
+    font-size: 25px;
+    color: aliceblue;
+}
+
+main .sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    text-align: justify;
+    width: 50vw
+}
+
+h2{
+    margin-bottom: 50px;
+    margin-top: 80px;
+    text-decoration: underline;
+}
+
+main .formacao{
+    width: 40vw;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+main .formacao img{
+    max-width: 130px;
+    max-height: 130px;   
+}
+
+ main .experiencias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60vw; 
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ main .experiencias img{
+    max-width: 130px;
+    max-height: 130px;
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.6s;
+ }
+
+ main .experiencias img:hover{
+     transform: scale(1.20);
+ }
+
+ footer .rodape{
+    height: 25px;
+    background-color: #202020;
+    margin-top: 100px ;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+
